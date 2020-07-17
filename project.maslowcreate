@@ -114,7 +114,7 @@
             "ioValues": [
                 {
                     "name": "height",
-                    "ioValue": 6
+                    "ioValue": 10
                 }
             ]
         },
@@ -156,7 +156,7 @@
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 6
+                    "ioValue": 3
                 }
             ]
         },
