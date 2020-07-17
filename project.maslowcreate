@@ -32,15 +32,15 @@
                     "ioValue": ""
                 },
                 {
+                    "name": "3D shape 3",
+                    "ioValue": 10
+                },
+                {
                     "name": "3D shape 1",
                     "ioValue": 10
                 },
                 {
                     "name": "3D shape 2",
-                    "ioValue": 10
-                },
-                {
-                    "name": "3D shape 3",
                     "ioValue": 10
                 }
             ],
@@ -106,6 +106,19 @@
             ]
         },
         {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.493411420204978,
+            "y": 0.5977011494252873,
+            "uniqueID": 390024,
+            "ioValues": [
+                {
+                    "name": "height",
+                    "ioValue": 6
+                }
+            ]
+        },
+        {
             "atomType": "Circle",
             "name": "Circle",
             "x": 0.29062957540263545,
@@ -115,6 +128,49 @@
                 {
                     "name": "diameter",
                     "ioValue": 8.5
+                }
+            ]
+        },
+        {
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.7650073206442167,
+            "y": 0.2835249042145594,
+            "uniqueID": 181263,
+            "ioValues": []
+        },
+        {
+            "atomType": "Translate",
+            "name": "Translate",
+            "x": 0.6024890190336749,
+            "y": 0.5632183908045977,
+            "uniqueID": 426814,
+            "ioValues": [
+                {
+                    "name": "xDist",
+                    "ioValue": -36
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 6
+                }
+            ]
+        },
+        {
+            "atomType": "GitHubMolecule",
+            "name": "Linear GT2 Belt",
+            "x": 0.3770131771595901,
+            "y": 0.846743295019157,
+            "uniqueID": 590736,
+            "projectID": "280060413",
+            "ioValues": [
+                {
+                    "name": "Number of teeth",
+                    "ioValue": 15
                 }
             ]
         },
@@ -164,10 +220,44 @@
         },
         {
             "ap1Name": "geometry",
+            "ap2Name": "geometry1",
+            "ap2Primary": false,
+            "ap1ID": 390829,
+            "ap2ID": 181263
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 390024,
+            "ap2ID": 426814
+        },
+        {
+            "ap1Name": "geometry",
             "ap2Name": "geometry2",
             "ap2Primary": false,
             "ap1ID": 428573,
             "ap2ID": 973326
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 181263
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry2",
+            "ap2Primary": false,
+            "ap1ID": 426814,
+            "ap2ID": 181263
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 590736,
+            "ap2ID": 390024
         }
     ],
     "fileTypeVersion": 1,
