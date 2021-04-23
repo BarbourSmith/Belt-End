@@ -10,8 +10,8 @@
         {
             "atomType": "Molecule",
             "name": "Outline",
-            "x": 0.12445095168374817,
-            "y": 0.28625954198473286,
+            "x": 0.11688311688311688,
+            "y": 0.3053435114503817,
             "uniqueID": 363170,
             "ioValues": [],
             "topLevel": false,
@@ -538,7 +538,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 8.5
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -566,8 +566,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Hollow Out",
-                    "x": 0.2759882869692533,
-                    "y": 0.8091603053435115,
+                    "x": 0.27458256029684597,
+                    "y": 0.7977099236641221,
                     "uniqueID": 787285,
                     "ioValues": [],
                     "topLevel": false,
@@ -810,8 +810,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Add Back Ins",
-                    "x": 0.49487554904831627,
-                    "y": 0.8511450381679388,
+                    "x": 0.4981447124304267,
+                    "y": 0.8587786259541985,
                     "uniqueID": 739719,
                     "ioValues": [],
                     "topLevel": false,
@@ -1328,7 +1328,7 @@
         {
             "atomType": "Molecule",
             "name": "Belt Cutaway",
-            "x": 0.37481698389458273,
+            "x": 0.3710575139146568,
             "y": 0.816793893129771,
             "uniqueID": 958716,
             "ioValues": [],
@@ -1685,5 +1685,5 @@
     ],
     "fileTypeVersion": 1,
     "filetypeVersion": 1,
-    "circleSegmentSize": "2.2"
+    "circleSegmentSize": "5.8"
 }
