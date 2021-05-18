@@ -10,8 +10,8 @@
         {
             "atomType": "Molecule",
             "name": "Outline",
-            "x": 0.11688311688311688,
-            "y": 0.3053435114503817,
+            "x": 0.1167608286252354,
+            "y": 0.3129770992366412,
             "uniqueID": 363170,
             "ioValues": [],
             "topLevel": false,
@@ -1162,10 +1162,27 @@
             ]
         },
         {
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.6346998535871157,
+            "y": 0.23282442748091603,
+            "uniqueID": 181263,
+            "ioValues": [
+                {
+                    "name": "geometry2",
+                    "ioValue": "atoms/339034/958716/955737Translate"
+                },
+                {
+                    "name": "geometry1",
+                    "ioValue": "atoms/339034/865043Assembly"
+                }
+            ]
+        },
+        {
             "atomType": "Molecule",
             "name": "Bolt",
-            "x": 0.12884333821376281,
-            "y": 0.6526717557251909,
+            "x": 0.13088512241054615,
+            "y": 0.66793893129771,
             "uniqueID": 762092,
             "ioValues": [],
             "topLevel": false,
@@ -1224,8 +1241,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "M3x15mm Bolt",
-                    "x": 0.09663250366032211,
-                    "y": 0.7938931297709924,
+                    "x": 0.096045197740113,
+                    "y": 0.767175572519084,
                     "uniqueID": 629972,
                     "projectID": "346149735",
                     "ioValues": []
@@ -1309,27 +1326,10 @@
             "fileTypeVersion": 1
         },
         {
-            "atomType": "Difference",
-            "name": "Difference",
-            "x": 0.6346998535871157,
-            "y": 0.23282442748091603,
-            "uniqueID": 181263,
-            "ioValues": [
-                {
-                    "name": "geometry2",
-                    "ioValue": "atoms/339034/958716/955737Translate"
-                },
-                {
-                    "name": "geometry1",
-                    "ioValue": "atoms/339034/865043Assembly"
-                }
-            ]
-        },
-        {
             "atomType": "Molecule",
             "name": "Belt Cutaway",
-            "x": 0.3710575139146568,
-            "y": 0.816793893129771,
+            "x": 0.3662900188323917,
+            "y": 0.7824427480916031,
             "uniqueID": 958716,
             "ioValues": [],
             "topLevel": false,
@@ -1648,13 +1648,6 @@
             "ap2ID": 181263
         },
         {
-            "ap1Name": "Geometry",
-            "ap2Name": "3D shape 2",
-            "ap2Primary": false,
-            "ap1ID": 762092,
-            "ap2ID": 865043
-        },
-        {
             "ap1Name": "geometry",
             "ap2Name": "number or geometry",
             "ap2Primary": false,
@@ -1667,6 +1660,13 @@
             "ap2Primary": true,
             "ap1ID": 181263,
             "ap2ID": 944678
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "3D shape 2",
+            "ap2Primary": false,
+            "ap1ID": 762092,
+            "ap2ID": 865043
         },
         {
             "ap1Name": "Geometry",
@@ -1685,5 +1685,5 @@
     ],
     "fileTypeVersion": 1,
     "filetypeVersion": 1,
-    "circleSegmentSize": "5.8"
+    "circleSegmentSize": "0.151"
 }
