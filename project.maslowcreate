@@ -10,8 +10,8 @@
         {
             "atomType": "Molecule",
             "name": "Outline",
-            "x": 0.1167608286252354,
-            "y": 0.3129770992366412,
+            "x": 0.12371888726207907,
+            "y": 0.31679389312977096,
             "uniqueID": 363170,
             "ioValues": [],
             "topLevel": false,
@@ -825,7 +825,7 @@
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 12
+                                    "ioValue": 11
                                 }
                             ]
                         },
@@ -1214,10 +1214,19 @@
                     ]
                 },
                 {
+                    "atomType": "GitHubMolecule",
+                    "name": "M3x15mm Bolt",
+                    "x": 0.096045197740113,
+                    "y": 0.767175572519084,
+                    "uniqueID": 629972,
+                    "projectID": "346149735",
+                    "ioValues": []
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 0.5988286969253294,
-                    "y": 0.48854961832061067,
+                    "x": 0.6054172767203514,
+                    "y": 0.49236641221374045,
                     "uniqueID": 208330,
                     "ioValues": [
                         {
@@ -1226,7 +1235,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": -9
+                            "ioValue": -19
                         },
                         {
                             "name": "yDist",
@@ -1237,15 +1246,6 @@
                             "ioValue": 0
                         }
                     ]
-                },
-                {
-                    "atomType": "GitHubMolecule",
-                    "name": "M3x15mm Bolt",
-                    "x": 0.096045197740113,
-                    "y": 0.767175572519084,
-                    "uniqueID": 629972,
-                    "projectID": "346149735",
-                    "ioValues": []
                 },
                 {
                     "atomType": "Translate",
@@ -1302,18 +1302,18 @@
                     "ap2ID": 208330
                 },
                 {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 208330,
-                    "ap2ID": 129525
-                },
-                {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 629972,
                     "ap2ID": 613641
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 208330,
+                    "ap2ID": 129525
                 },
                 {
                     "ap1Name": "geometry",
@@ -1416,20 +1416,32 @@
                     ]
                 },
                 {
-                    "atomType": "GitHubMolecule",
-                    "name": "2GT Sprocket",
-                    "x": 0.08638360175695461,
-                    "y": 0.5419847328244275,
-                    "uniqueID": 675848,
-                    "projectID": "235682860",
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.05710102489019033,
+                    "y": 0.5076335877862596,
+                    "uniqueID": 145540,
                     "ioValues": [
                         {
-                            "name": "Number of teeth",
-                            "ioValue": 12
+                            "name": "diameter",
+                            "ioValue": 9
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 0.17862371888726208,
+                    "y": 0.5190839694656488,
+                    "uniqueID": 829493,
+                    "ioValues": [
+                        {
+                            "name": "geometry2",
+                            "ioValue": "atoms/339034/958716/675848/693637Code"
                         },
                         {
-                            "name": "Resolution",
-                            "ioValue": 0.1
+                            "name": "geometry1",
+                            "ioValue": "atoms/339034/958716/145540Circle"
                         }
                     ]
                 },
@@ -1446,7 +1458,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 0.75
                         },
                         {
                             "name": "yDist",
@@ -1461,8 +1473,33 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 0.4758418740849195,
-                    "y": 0.4389312977099236,
+                    "x": 0.39677891654465597,
+                    "y": 0.4732824427480916,
+                    "uniqueID": 538827,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "atoms/339034/958716/829493Difference"
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 17
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 0.5161054172767203,
+                    "y": 0.366412213740458,
                     "uniqueID": 861802,
                     "ioValues": [
                         {
@@ -1471,7 +1508,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 0.75
                         },
                         {
                             "name": "yDist",
@@ -1484,27 +1521,19 @@
                     ]
                 },
                 {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 0.3601756954612006,
-                    "y": 0.6564885496183206,
-                    "uniqueID": 538827,
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.5431918008784773,
+                    "y": 0.5381679389312977,
+                    "uniqueID": 997157,
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": ""
+                            "ioValue": "atoms/339034/958716/538827Translate"
                         },
                         {
-                            "name": "xDist",
-                            "ioValue": 7
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
+                            "name": "height",
+                            "ioValue": 6
                         }
                     ]
                 },
@@ -1530,32 +1559,15 @@
                     ]
                 },
                 {
-                    "atomType": "Difference",
-                    "name": "Difference",
-                    "x": 0.23133235724743778,
-                    "y": 0.7557251908396946,
-                    "uniqueID": 829493,
-                    "ioValues": [
-                        {
-                            "name": "geometry2",
-                            "ioValue": "atoms/339034/958716/675848/693637Code"
-                        },
-                        {
-                            "name": "geometry1",
-                            "ioValue": "atoms/339034/958716/145540Circle"
-                        }
-                    ]
-                },
-                {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.4275256222547584,
-                    "y": 0.6717557251908397,
-                    "uniqueID": 997157,
+                    "x": 0.26939970717423134,
+                    "y": 0.8206106870229009,
+                    "uniqueID": 897166,
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "atoms/339034/958716/538827Translate"
+                            "ioValue": "atoms/339034/958716/675848/693637Code"
                         },
                         {
                             "name": "height",
@@ -1564,15 +1576,45 @@
                     ]
                 },
                 {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 0.08784773060029283,
-                    "y": 0.8358778625954199,
-                    "uniqueID": 145540,
+                    "atomType": "GitHubMolecule",
+                    "name": "2GT Sprocket",
+                    "x": 0.06734992679355783,
+                    "y": 0.866412213740458,
+                    "uniqueID": 675848,
+                    "projectID": "235682860",
                     "ioValues": [
                         {
-                            "name": "diameter",
-                            "ioValue": 10
+                            "name": "Number of teeth",
+                            "ioValue": 12
+                        },
+                        {
+                            "name": "Resolution",
+                            "ioValue": 0.1
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 0.5087847730600293,
+                    "y": 0.816793893129771,
+                    "uniqueID": 673284,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "atoms/339034/958716/897166Extrude"
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 17
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
                         }
                     ]
                 },
@@ -1585,7 +1627,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "atoms/339034/958716/520173Group"
+                            "ioValue": "atoms/339034/958716/337048Difference"
                         },
                         {
                             "name": "xDist",
@@ -1598,6 +1640,23 @@
                         {
                             "name": "zDist",
                             "ioValue": 2
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 0.7210834553440704,
+                    "y": 0.8053435114503817,
+                    "uniqueID": 337048,
+                    "ioValues": [
+                        {
+                            "name": "geometry2",
+                            "ioValue": "atoms/339034/958716/673284Translate"
+                        },
+                        {
+                            "name": "geometry1",
+                            "ioValue": "atoms/339034/958716/520173Group"
                         }
                     ]
                 },
@@ -1652,24 +1711,24 @@
                     "ap2ID": 585288
                 },
                 {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "geometry2",
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
                     "ap2Primary": false,
-                    "ap1ID": 675848,
+                    "ap1ID": 145540,
                     "ap2ID": 829493
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 829493,
+                    "ap2ID": 538827
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 2",
                     "ap2Primary": false,
                     "ap1ID": 585288,
-                    "ap2ID": 520173
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 3",
-                    "ap2Primary": false,
-                    "ap1ID": 861802,
                     "ap2ID": 520173
                 },
                 {
@@ -1681,10 +1740,10 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 520173,
-                    "ap2ID": 955737
+                    "ap2Name": "3D shape 3",
+                    "ap2Primary": false,
+                    "ap1ID": 861802,
+                    "ap2ID": 520173
                 },
                 {
                     "ap1Name": "geometry",
@@ -1697,8 +1756,36 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry1",
                     "ap2Primary": false,
-                    "ap1ID": 145540,
+                    "ap1ID": 520173,
+                    "ap2ID": 337048
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 897166,
+                    "ap2ID": 673284
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry2",
+                    "ap2Primary": false,
+                    "ap1ID": 675848,
                     "ap2ID": 829493
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 675848,
+                    "ap2ID": 897166
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap2Primary": false,
+                    "ap1ID": 673284,
+                    "ap2ID": 337048
                 },
                 {
                     "ap1Name": "geometry",
@@ -1706,6 +1793,13 @@
                     "ap2Primary": false,
                     "ap1ID": 955737,
                     "ap2ID": 207275
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 337048,
+                    "ap2ID": 955737
                 }
             ],
             "fileTypeVersion": 1
@@ -1729,7 +1823,12 @@
             "x": 0.9853587115666179,
             "y": 0.5,
             "uniqueID": 220194,
-            "ioValues": []
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": "atoms/339034/219628Group"
+                }
+            ]
         },
         {
             "atomType": "Stl",
@@ -1759,6 +1858,13 @@
             "ap2Primary": false,
             "ap1ID": 865043,
             "ap2ID": 219628
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 219628,
+            "ap2ID": 220194
         },
         {
             "ap1Name": "Geometry",
