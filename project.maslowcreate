@@ -825,7 +825,7 @@
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 11
+                                    "ioValue": 12
                                 }
                             ]
                         },
@@ -1162,19 +1162,19 @@
             ]
         },
         {
-            "atomType": "Group",
-            "name": "Group",
-            "x": 0.5461200585651537,
-            "y": 0.366412213740458,
-            "uniqueID": 219628,
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.5739385065885798,
+            "y": 0.3053435114503817,
+            "uniqueID": 997129,
             "ioValues": [
                 {
-                    "name": "3D shape 1",
-                    "ioValue": 10
+                    "name": "geometry2",
+                    "ioValue": "atoms/339034/958716/955737Translate"
                 },
                 {
-                    "name": "3D shape 2",
-                    "ioValue": 10
+                    "name": "geometry1",
+                    "ioValue": "atoms/339034/865043Assembly"
                 }
             ]
         },
@@ -1424,7 +1424,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 9
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -1458,7 +1458,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 0.75
+                            "ioValue": 0
                         },
                         {
                             "name": "yDist",
@@ -1508,11 +1508,11 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 0.75
+                            "ioValue": 0
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -0.1
+                            "ioValue": 0.1
                         },
                         {
                             "name": "zDist",
@@ -1812,6 +1812,10 @@
             "uniqueID": 944678,
             "ioValues": [
                 {
+                    "name": "geometry",
+                    "ioValue": "atoms/339034/997129Difference"
+                },
+                {
                     "name": "tag",
                     "ioValue": "Plastic"
                 }
@@ -1826,7 +1830,7 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": "atoms/339034/219628Group"
+                    "ioValue": "atoms/339034/997129Difference"
                 }
             ]
         },
@@ -1854,16 +1858,23 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "3D shape 2",
+            "ap2Name": "geometry1",
             "ap2Primary": false,
             "ap1ID": 865043,
-            "ap2ID": 219628
+            "ap2ID": 997129
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 997129,
+            "ap2ID": 944678
         },
         {
             "ap1Name": "geometry",
             "ap2Name": "number or geometry",
             "ap2Primary": false,
-            "ap1ID": 219628,
+            "ap1ID": 997129,
             "ap2ID": 220194
         },
         {
@@ -1875,10 +1886,10 @@
         },
         {
             "ap1Name": "Geometry",
-            "ap2Name": "3D shape 1",
+            "ap2Name": "geometry2",
             "ap2Primary": false,
             "ap1ID": 958716,
-            "ap2ID": 219628
+            "ap2ID": 997129
         },
         {
             "ap1Name": "geometry",
