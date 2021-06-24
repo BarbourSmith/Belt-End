@@ -1149,27 +1149,10 @@
             "simplify": false
         },
         {
-            "atomType": "Assembly",
-            "name": "Assembly",
-            "x": 0.2518301610541728,
-            "y": 0.4236641221374046,
-            "uniqueID": 865043,
-            "ioValues": [
-                {
-                    "name": "3D shape 1",
-                    "ioValue": 10
-                },
-                {
-                    "name": "3D shape 2",
-                    "ioValue": 10
-                }
-            ]
-        },
-        {
             "atomType": "Difference",
             "name": "Difference",
-            "x": 0.41362763915547024,
-            "y": 0.3549618320610687,
+            "x": 0.2840690978886756,
+            "y": 0.41221374045801523,
             "uniqueID": 997129,
             "ioValues": [
                 {
@@ -1178,15 +1161,15 @@
                 },
                 {
                     "name": "geometry1",
-                    "ioValue": "atoms/339034/865043Assembly"
+                    "ioValue": "atoms/339034/363170/538832Color"
                 }
             ]
         },
         {
             "atomType": "Molecule",
             "name": "Bolt",
-            "x": 0.13531669865642995,
-            "y": 0.6755725190839695,
+            "x": 0.43186180422264875,
+            "y": 0.25572519083969464,
             "uniqueID": 762092,
             "ioValues": [],
             "topLevel": false,
@@ -1365,10 +1348,27 @@
             "simplify": false
         },
         {
+            "atomType": "Group",
+            "name": "Group",
+            "x": 0.3714011516314779,
+            "y": 0.6564885496183206,
+            "uniqueID": 883169,
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 2",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
             "atomType": "Molecule",
             "name": "Belt Cutaway",
-            "x": 0.2965451055662188,
-            "y": 0.7938931297709924,
+            "x": 0.1199616122840691,
+            "y": 0.900763358778626,
             "uniqueID": 958716,
             "ioValues": [],
             "topLevel": false,
@@ -1816,27 +1816,10 @@
             "simplify": false
         },
         {
-            "atomType": "Group",
-            "name": "Group",
-            "x": 0.555662188099808,
-            "y": 0.6984732824427481,
-            "uniqueID": 883169,
-            "ioValues": [
-                {
-                    "name": "3D shape 1",
-                    "ioValue": 10
-                },
-                {
-                    "name": "3D shape 2",
-                    "ioValue": 10
-                }
-            ]
-        },
-        {
             "atomType": "Molecule",
             "name": "Middle Thing",
-            "x": 0.42418426103646834,
-            "y": 0.8053435114503817,
+            "x": 0.2523992322456814,
+            "y": 0.8931297709923663,
             "uniqueID": 832224,
             "ioValues": [],
             "topLevel": false,
@@ -1977,8 +1960,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 0.7984644913627639,
-                    "y": 0.66793893129771,
+                    "x": 0.7476007677543186,
+                    "y": 0.5916030534351144,
                     "uniqueID": 853365,
                     "ioValues": [
                         {
@@ -2000,6 +1983,23 @@
                     ]
                 },
                 {
+                    "atomType": "Tag",
+                    "name": "Add Tag",
+                    "x": 0.8752399232245681,
+                    "y": 0.4427480916030534,
+                    "uniqueID": 272924,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "atoms/339034/832224/853365Translate"
+                        },
+                        {
+                            "name": "tag",
+                            "ioValue": "Plastic"
+                        }
+                    ]
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 0.9808061420345489,
@@ -2008,7 +2008,7 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": "atoms/339034/832224/853365Translate"
+                            "ioValue": "atoms/339034/832224/272924Tag"
                         }
                     ]
                 }
@@ -2058,14 +2058,38 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 853365,
+                    "ap2ID": 272924
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
-                    "ap1ID": 853365,
+                    "ap1ID": 272924,
                     "ap2ID": 623480
                 }
             ],
             "fileTypeVersion": 1,
             "simplify": false
+        },
+        {
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.5585412667946257,
+            "y": 0.7748091603053435,
+            "uniqueID": 870706,
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 2",
+                    "ioValue": 10
+                }
+            ]
         },
         {
             "atomType": "ExtractTag",
@@ -2076,7 +2100,7 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": "atoms/339034/997129Difference"
+                    "ioValue": "atoms/339034/870706Assembly"
                 },
                 {
                     "name": "tag",
@@ -2114,24 +2138,10 @@
     "allConnectors": [
         {
             "ap1Name": "Geometry",
-            "ap2Name": "3D shape 1",
-            "ap2Primary": false,
-            "ap1ID": 363170,
-            "ap2ID": 865043
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "geometry1",
             "ap2Primary": false,
-            "ap1ID": 865043,
+            "ap1ID": 363170,
             "ap2ID": 997129
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 997129,
-            "ap2ID": 944678
         },
         {
             "ap1Name": "geometry",
@@ -2152,7 +2162,14 @@
             "ap2Name": "3D shape 2",
             "ap2Primary": false,
             "ap1ID": 762092,
-            "ap2ID": 865043
+            "ap2ID": 870706
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 1",
+            "ap2Primary": false,
+            "ap1ID": 883169,
+            "ap2ID": 870706
         },
         {
             "ap1Name": "Geometry",
@@ -2167,6 +2184,13 @@
             "ap2Primary": false,
             "ap1ID": 832224,
             "ap2ID": 883169
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 870706,
+            "ap2ID": 944678
         },
         {
             "ap1Name": "geometry",
