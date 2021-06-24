@@ -1185,12 +1185,37 @@
         {
             "atomType": "Molecule",
             "name": "Bolt",
-            "x": 0.13088512241054615,
+            "x": 0.1343570057581574,
             "y": 0.66793893129771,
             "uniqueID": 762092,
             "ioValues": [],
             "topLevel": false,
             "allAtoms": [
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 0.23800383877159312,
+                    "y": 0.23282442748091603,
+                    "uniqueID": 445779,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "atoms/339034/762092/252720/378449Color"
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": -2
+                        }
+                    ]
+                },
                 {
                     "atomType": "GitHubMolecule",
                     "name": "M3 Locknut",
@@ -1213,7 +1238,7 @@
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 2",
+                            "name": "3D shape 3",
                             "ioValue": 10
                         }
                     ]
@@ -1294,11 +1319,18 @@
             ],
             "allConnectors": [
                 {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 2",
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 3",
                     "ap2Primary": false,
-                    "ap1ID": 252720,
+                    "ap1ID": 445779,
                     "ap2ID": 593926
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 252720,
+                    "ap2ID": 445779
                 },
                 {
                     "ap1Name": "geometry",
@@ -1813,19 +1845,6 @@
             ],
             "fileTypeVersion": 1,
             "simplify": false
-        },
-        {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.5383877159309021,
-            "y": 0.7251908396946565,
-            "uniqueID": 451352,
-            "ioValues": [
-                {
-                    "name": "diameter",
-                    "ioValue": 4
-                }
-            ]
         },
         {
             "atomType": "ExtractTag",
