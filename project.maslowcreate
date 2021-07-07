@@ -1367,8 +1367,8 @@
         {
             "atomType": "Molecule",
             "name": "Belt Cutaway",
-            "x": 0.1199616122840691,
-            "y": 0.900763358778626,
+            "x": 0.11859443631039533,
+            "y": 0.9198473282442748,
             "uniqueID": 958716,
             "ioValues": [],
             "topLevel": false,
@@ -1422,7 +1422,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "atoms/339034/958716/359186Translate"
+                            "ioValue": "atoms/339034/958716/218209Translate"
                         },
                         {
                             "name": "height",
@@ -1540,6 +1540,48 @@
                         {
                             "name": "zDist",
                             "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 0.2525622254758419,
+                    "y": 0.599236641221374,
+                    "uniqueID": 218209,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "atoms/339034/958716/306796Rectangle"
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 15
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.15666178623718888,
+                    "y": 0.6412213740458015,
+                    "uniqueID": 306796,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 30
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 1.5
                         }
                     ]
                 },
@@ -1710,13 +1752,6 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
-                    "ap1ID": 359186,
-                    "ap2ID": 456393
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": 456393,
                     "ap2ID": 741835
                 },
@@ -1761,6 +1796,20 @@
                     "ap2Primary": false,
                     "ap1ID": 861802,
                     "ap2ID": 520173
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 218209,
+                    "ap2ID": 456393
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 306796,
+                    "ap2ID": 218209
                 },
                 {
                     "ap1Name": "geometry",
