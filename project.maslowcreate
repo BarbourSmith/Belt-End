@@ -2166,7 +2166,7 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": "atoms/339034/997129Difference"
+                    "ioValue": "atoms/339034/870706Assembly"
                 }
             ]
         },
@@ -2191,13 +2191,6 @@
             "ap2Primary": false,
             "ap1ID": 363170,
             "ap2ID": 997129
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": 997129,
-            "ap2ID": 220194
         },
         {
             "ap1Name": "geometry",
@@ -2240,6 +2233,13 @@
             "ap2Primary": true,
             "ap1ID": 870706,
             "ap2ID": 944678
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 870706,
+            "ap2ID": 220194
         },
         {
             "ap1Name": "geometry",
