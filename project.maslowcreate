@@ -1192,8 +1192,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 0.23800383877159312,
-                    "y": 0.23282442748091603,
+                    "x": 0.2306002928257687,
+                    "y": 0.2748091603053435,
                     "uniqueID": 445779,
                     "ioValues": [
                         {
@@ -1215,6 +1215,16 @@
                     ]
                 },
                 {
+                    "atomType": "GitHubMolecule",
+                    "name": "M3 Locknut",
+                    "x": 0.08931185944363104,
+                    "y": 0.3511450381679389,
+                    "uniqueID": 252720,
+                    "projectID": "278794657",
+                    "ioValues": [],
+                    "simplify": false
+                },
+                {
                     "atomType": "Group",
                     "name": "Group",
                     "x": 0.376281112737921,
@@ -1230,16 +1240,6 @@
                             "ioValue": 10
                         }
                     ]
-                },
-                {
-                    "atomType": "GitHubMolecule",
-                    "name": "M3 Locknut",
-                    "x": 0.11346998535871157,
-                    "y": 0.4961832061068702,
-                    "uniqueID": 252720,
-                    "projectID": "278794657",
-                    "ioValues": [],
-                    "simplify": false
                 },
                 {
                     "atomType": "Translate",
@@ -1427,18 +1427,18 @@
                     "ap2ID": 593926
                 },
                 {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 593926,
-                    "ap2ID": 432990
-                },
-                {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 252720,
                     "ap2ID": 445779
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 593926,
+                    "ap2ID": 432990
                 },
                 {
                     "ap1Name": "geometry",
